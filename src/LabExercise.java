@@ -2,17 +2,15 @@ import java.util.Scanner;
 public class LabExercise {
 
     static void main() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the first number : ");
-        int num1 = sc.nextInt();
-        System.out.print("Enter the second number : ");
-        int num2 = sc.nextInt();
-
-        if (num1 > num2){
-            System.out.println(num1 + " is the greatest number");
-        }else {
-            System.out.println(num2 + " is the greatest number");
-        }
+        //Write program using do-while statement in different way?
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        int sum = 0;
+        do {
+            System.out.print("Enter a number (0 to stop): ");
+            number = scanner.nextInt();
+            sum += number;
+        } while (number != 0);
+        System.out.println("The sum of the entered numbers is: " + sum);
     }
 }
-
