@@ -1,3 +1,4 @@
+/*
 package constructor;
 
 class Demo1{
@@ -41,3 +42,4 @@ public class Demo extends Demo1 {
 
     }
 }
+*/
